@@ -1,0 +1,8 @@
+from countryinfo import CountryInfo
+count=input("Enter country :  ")
+country = CountryInfo(count)
+print("Capital is : ", country.capital())
+print("Currency is : ", country.currencies())
+print("Languages is/are : ", country.languages())
+print("Borders is/are : ", country.borders())
+print("Other name(s) : ", country.alt_spellings())
